@@ -1,0 +1,17 @@
+//Bootstrap import;
+@import '/bootstrap/bootstrap-common';
+
+//Import generics features
+@import 'variables';
+@import 'common';
+
+
+//Import partials
+@import 'partials/_header';
+@import 'partials/_buttons';
+@import 'partials/_sections-hr-contents';
+@import 'partials/_sections-vr-contents';
+@import 'partials/_bottom-section';
+@import 'partials/_footer';
+
+

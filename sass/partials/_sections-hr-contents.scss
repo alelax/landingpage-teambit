@@ -1,0 +1,141 @@
+$margin_b35: 35px;
+
+$btn-cnt-height: 110px;
+
+div.section-text {
+    
+    p.small-intro {
+        padding: 0;
+        font-size: 16px;
+        line-height: 25px;
+        font-weight: 500;
+        margin-bottom: $margin_b35;
+    }
+
+    div.buttons-cnt {
+        height: $btn-cnt-height;
+        margin-bottom: 5px;
+            span {
+                font-size: 13px;
+            }
+
+    }
+
+    
+    div.link-cnt-big {
+        height: 30px;
+        padding-bottom: 20px;
+
+            a {
+                display: block;
+                color: blue;
+                font-weight: 500;
+                height: 30px;
+                font-size: 16px;
+                line-height: 30px;
+
+                img.arrow-icon {
+                    width: $button_icons_md;
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-50%); 
+                }
+            }
+    }
+
+
+    div.little-img-cnt {
+        img.little-img {
+            max-width: 270px;
+        }
+    }
+}
+
+
+
+@include media-breakpoint-up(sm) {
+
+   div.section-text {
+
+      h1.big-title {
+         margin: 0;
+      }
+      
+      
+
+      div.buttons-cnt {
+         height: $btn-cnt-height / 2;
+
+      }
+
+
+      div.link-cnt-big {
+        height: 45px;
+        
+
+            a {
+                display: block;
+                color: blue;
+                font-weight: 500;
+                height: 45px;
+                font-size: 20px;
+                line-height: 45px;
+
+                img.arrow-icon {
+                    width: $button_icons_lg;
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-40%); 
+                }
+            }
+    }
+      
+   }
+}
+
+
+@include media-breakpoint-up(md) {
+
+   div.section-text {
+
+      
+    
+      p.small-intro {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 500;
+        margin-bottom: $margin_b35;
+    }
+      
+
+      div.buttons-cnt {
+         height: $btn-cnt-height / 2;
+
+      }
+
+
+      div.link-cnt-big {
+        height: 45px;
+        
+
+            a {
+                display: block;
+                color: blue;
+                font-weight: 500;
+                height: 45px;
+                font-size: 20px;
+                line-height: 45px;
+
+                img.arrow-icon {
+                    width: $button_icons_lg;
+                    position: relative;
+                    top: 50%;
+                    transform: translateY(-40%); 
+                }
+            }
+    }
+      
+   }
+}

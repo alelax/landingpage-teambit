@@ -1,0 +1,42 @@
+div.letter-cnt {
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: relative;
+
+    img#quote {
+        width: 45px;
+        position: absolute;
+        top: -25px;
+    }
+
+    p.presentation {
+        margin: 0;
+        padding: 30px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;        
+    }
+    
+    div.authors#prova {
+        
+        height: 40px;
+
+        div.authors-images {                    
+            #img-alex, #img-bohdan {
+                width: 40px;
+            }
+        }
+        div.authors-info{
+            #author-name{
+                margin: 0;
+                font-size: 13px;
+                color: blue;
+            }
+            #author-job {
+                margin: 0;
+                font-size: 12px;
+            }   
+        }
+    }
+}

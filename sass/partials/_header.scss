@@ -1,0 +1,95 @@
+$header-height_sm : 55px;
+$header-height_md : 75px;
+$header_font-s : 13px;
+
+div.header.row {
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: $header-height_sm;
+   font-size: $header_font-s;
+   font-weight: $font_heavy;
+   margin-bottom: 100px;
+   
+
+   img.teambit-logo {
+      height: 25px;
+   }
+
+}
+
+@include media-breakpoint-up(md) {
+   @include make-col(12);
+
+   div.header.row {
+
+      height: $header-height_md;
+
+      .nav-items {
+
+         width: 450px;
+
+         .item {
+
+            font-size: 13px;
+            
+            a {
+                color: $font_color;
+            }
+
+            button.header-btn {
+               margin: 0;
+               padding: 0 10px;
+               width: 100px;
+               height: 40px;
+               line-height: 35px;
+               position: relative;
+               background-color: #fff;
+               border: 1px solid blue;
+               border-radius: 10px;
+               font-size: 15px;
+               font-weight: 500;
+               color: blue;
+
+                span.header-btn-text {
+                    margin-left: 8px;
+                }
+
+                
+
+            }
+
+         }
+
+      }
+
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
